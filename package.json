@@ -1,0 +1,28 @@
+{
+  "name": "piezo-applescript",
+  "version": "0.0.0",
+  "description": "Control Piezo using AppleScript",
+  "keywords": [
+    "piezo",
+    "applescript",
+    "rogue amoeba",
+    "record",
+    "recording",
+    "audio"
+  ],
+  "license": "ISC",
+  "repository": "sonicdoe/piezo-applescript",
+  "author": "Jakob Krigovsky <jakob@krigovsky.com>",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}

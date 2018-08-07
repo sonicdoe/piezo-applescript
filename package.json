@@ -14,10 +14,15 @@
   "repository": "sonicdoe/piezo-applescript",
   "author": "Jakob Krigovsky <jakob@krigovsky.com>",
   "files": [
-    "index.js"
+    "index.js",
+    "lib/toggle-recording.js"
   ],
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "test:toggle-recording": "node test/toggle-recording.js"
+  },
+  "dependencies": {
+    "run-jxa": "^1.2.0"
   },
   "devDependencies": {
     "standard": "^11.0.1"
